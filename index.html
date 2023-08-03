@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        
+        <h1 class="heading">Basic Calculator</h1>
+
+        <div class="operation-container">
+        <input id="num1" placeholder="Enter First Numer" />
+        <input id="num2" placeholder="Enter Second Number" />
+
+
+
+        <select name="operation" id="operation" >
+            <option>Select your operation type</option>
+            <option value="+">Addition</option>
+            <option value="-">Subtraction</option>
+            <option value="*">Multiplication</option>
+            <option value="/">Divison</option>
+            <option value="%">Modulos</option>
+        </select>
+         </div>
+
+        <h3 id="display"></h3>
+
+        <div>
+        <button id="resultButton" class="button  ">Result</button>
+       </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
